@@ -1,3 +1,5 @@
+package chapter1;
+
 import  java.util.*; // imports Random class among others. -- > shortcut
 //import java.util.Random;
 
