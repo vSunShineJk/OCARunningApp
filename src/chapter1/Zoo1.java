@@ -1,3 +1,5 @@
+package chapter1;
+
 import java.lang.String;
 
 public class Zoo1 {

@@ -1,3 +1,5 @@
+package chapter1;
+
 public class Test1 {
     public static void main(String[] args) {
             float v1 = 102;
