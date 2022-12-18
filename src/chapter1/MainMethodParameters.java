@@ -3,6 +3,13 @@ package chapter1;
 public class MainMethodParameters {
     public static void main(String[] args) {
         System.out.println("Sample main method");
+        int num = 11;
+        System.out.println(num);
+
+        System.out.println("Sample main method");
+        int num2 = 11;
+        System.out.println(num2);
+        System.out.println(args[3]);
     }
 }
 
