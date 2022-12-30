@@ -5,6 +5,7 @@ import java.time.format.*;
 
 public class P03_FormattingDatesAndTimes {
     public static void main(String[] args) {
+
         LocalDate currentDate = LocalDate.now();
         System.out.println("currentDate.getDayOfWeek() = " + currentDate.getDayOfWeek());
         System.out.println("currentDate.getMonth() = " + currentDate.getMonth());
@@ -45,8 +46,9 @@ public class P03_FormattingDatesAndTimes {
         // PARSING DATE AND TIME
         DateTimeFormatter Df = DateTimeFormatter.ofPattern("MM dd yyyy");
         LocalDate date = LocalDate.parse("01 02 2015", Df);
-        LocalTime Dtime = LocalTime.parse("11:22");
+        LocalTime DTime = LocalTime.parse("11:22");
         System.out.println(date); // 2015-01-02
-        System.out.println(Dtime); // 11:22
+        System.out.println(DTime); // 11:22
+
     }
 }
