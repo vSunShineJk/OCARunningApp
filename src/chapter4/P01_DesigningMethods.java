@@ -27,7 +27,29 @@ public class P01_DesigningMethods {
     private void oneException() throws IllegalAccessException {}
     public void twoExceptions() throws InterruptedException, IllegalAccessException{}
 
+    // VARARGS
+    public void sleep1(int... nums){}
+    public void sleep2(int start, int... nums){}
+//    public void sleep3(int... nums, int start){}
+//    public void sleep4(int... nusm, int... nums2){}
 
+    public static void walk(int start, int... nums){
+        System.out.println(nums.length);
+    }
 
+    public static void main(String[] args) {
+        walk(1);
+        walk(1,2);
+        walk(1,2,3);
+        walk(1,new int[]{4,5,6});
+//        walk(1,null); NullPointerException
+        System.out.println();
+
+        run(11,22);
+    }
+
+    public static void run(int... nums){
+        System.out.println(nums[1]);
+    }
 
 }
