@@ -1,7 +1,7 @@
 package chapter5.inheritance.superKeyword;
 
 public class Camel {
-    protected String getNumOfHumps(){
+    private String getNumOfHumps(){
         return "undefined";
     }
 }
